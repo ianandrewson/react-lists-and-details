@@ -1,10 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import CardList from '../CardList/CardList.js';
 
 export default function Main() {
-  return(
+  return (
     <>
-      <h1>FILLER</h1>
+      <h1>THIS IS THE MAIN PAGE</h1>
+      <CardList />
     </>
   );
 }
