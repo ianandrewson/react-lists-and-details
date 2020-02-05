@@ -3,6 +3,16 @@
 exports[`App component renders App 1`] = `
 <Fragment>
   <Header />
-  <Main />
+  <Switch>
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/"
+    />
+    <Route
+      component={[Function]}
+      path="/detail"
+    />
+  </Switch>
 </Fragment>
 `;

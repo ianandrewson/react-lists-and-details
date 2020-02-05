@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Main from '../components/Main.js';
+import Main from '../components/Main/Main.js';
 
 const mockApi = jest.mock('./mtgApi.js');
 
@@ -16,8 +16,3 @@ describe('mtgAPI mock call', () => {
     ]);
   });
 });
-
-
-//expect that service gets called;
-
-//expect wrapper state values t 
